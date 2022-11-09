@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
-import re, openpyxl
+import re, timeit
 
 # Call chromdriver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
@@ -41,6 +41,17 @@ def main_function():
     df.to_excel("JABABEKA_1.xlsx") 
     df2.to_excel("JABABEKA_2.xlsx")
 
+def convert(seconds):
+    seconds = seconds % (24 * 3600)
+    hour = seconds // 3600
+    seconds %= 3600
+    minutes = seconds // 60
+    seconds %= 60
+     
+    return "%d jam, %02d menit, %02d detik" % (hour, minutes, seconds)
+
 if __name__ == "__main__":
+    start = timeit.default_timer()
     main_function()
-    print("Scraping is Done")
+    stop = timeit.default_timer()
+    print(f"Scraping is Done in {convert(stop-start)}")
