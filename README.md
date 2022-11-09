@@ -34,7 +34,8 @@ Start the server
 
 ## Scraper Flow
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://user-images.githubusercontent.com/39428898/200729310-f6171a54-1e94-41be-8f45-74b39c8cedba.png)
+
 
 
 ## Limitation
