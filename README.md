@@ -34,7 +34,8 @@ Start the server
 
 ## Scraper Flow
 
-![image](https://user-images.githubusercontent.com/39428898/200729310-f6171a54-1e94-41be-8f45-74b39c8cedba.png)
+![image](https://user-images.githubusercontent.com/39428898/200729526-3f38ee68-a6bf-4c72-8e0c-e08d027612fb.png)
+
 
 
 
