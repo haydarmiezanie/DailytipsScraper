@@ -1,7 +1,7 @@
 
 # Red Me
 
-DailyTips scraping is scraper that aims data from DailyTips Article to xlsx
+DailyTips scraping is scraper that aims data from DailyTips Article to xlsx, this scraper works in 17 sec.
 
 ## Deployment
 
