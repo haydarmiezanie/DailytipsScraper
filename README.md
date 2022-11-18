@@ -27,7 +27,7 @@ Install dependencies
   pip install re
 ```
 
-Start the server
+Start the scraper
 
 ```bash
   python -m dailytips_scraping.py
