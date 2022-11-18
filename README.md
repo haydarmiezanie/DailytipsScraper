@@ -30,7 +30,7 @@ Install dependencies
 Start the scraper
 
 ```bash
-  python -m dailytips_scraping.py
+  python -m dailytips_scraping
 ```
 
 
