@@ -15,7 +15,9 @@ To deploy this you will need this
 ## Run Locally
 
 Clone the project
-
+```bash
+  git clone https://github.com/haydarmiezanie/dailytips_scraping.git
+```
 
 Install dependencies
 
