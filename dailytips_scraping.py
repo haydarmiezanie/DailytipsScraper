@@ -41,6 +41,8 @@ def main_function():
     df.to_excel("JABABEKA_1.xlsx") 
     df2.to_excel("JABABEKA_2.xlsx")
 
+    driver.quit()
+
 def convert(seconds):
     seconds = seconds % (24 * 3600)
     hour = seconds // 3600
